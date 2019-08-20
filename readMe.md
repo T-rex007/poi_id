@@ -2,12 +2,11 @@ Person of interest identifier(write-up)
 
 
 1). The goal of this project is to train an algorithm that effectively identifies a person of interest
-in the Enron fraud. To state clearly a person of interest, in this case, is any person that has been involved
-in any sort of fraudulent transactions, for instance, stealing money from the company, taking part in fraudulent
-transactions etc.
+based on the data from the Enron fraud(2001). To state clearly a person of interest, in this case, is any person that has been involved
+in any sort of fraudulent transactions, for instance, stealing money from the company.
 
 
-2) In my POI identifier, I ended up using selectkbest to select features. I used the standard scaler to scale
+2) In my POI identifier, I ended up using selectkbest to select the best features, sklearn's standard scaler to scale
 my features since it was a requirement for some estimators eg gaussian( which was used).Since some of the different
 features in the dataset had different ranges the dataset had to be scaled to make data more digestible to the algorithms. 
 
